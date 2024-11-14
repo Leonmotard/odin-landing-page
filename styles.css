@@ -67,3 +67,121 @@ header a {
     height: 200px;
 }
 
+/* Main Section*/
+
+.information-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+main section p{
+    color: #1F2937;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 410px;
+}
+
+/* Cards section */
+
+.cards-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 12px;
+    justify-content: center;
+}
+
+.card{
+    width: 180px;
+    height: 250px;
+    text-align: center;
+}
+
+.card-image{
+    width: 150px;
+    height: 160px;
+    margin: auto;
+    border: solid 2px #3882F6;
+    border-radius: 8px;
+}
+
+.card p{
+    font-size: 16px;
+    text-align: center;
+    width: 150px;
+    margin: auto;
+}
+
+/* Quote Section*/
+
+.quote-section{
+    background-color: #cbccce;
+}
+
+.quote{
+    margin: auto;
+    margin-bottom: 0;
+    width: 60%;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author{
+    margin: auto;
+    margin-top: 0;
+    width: 60%;
+    text-align: right;
+    font-weight: 900;
+}
+/* Call to action section*/
+
+.call-action{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    height: 150px;
+    width:80%;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    
+}
+
+.call-action p{
+    color: #F9FAF8;
+    font-size: 12px;
+    margin-top: 0;
+}
+.call-action h4{
+    margin-bottom: 0;
+}
+
+.sign-up{
+    width: 95px;
+    padding: 5px;
+    font-weight: 700;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: solid 1px #F9FAF8;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 80px;
+}
+
